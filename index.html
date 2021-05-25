@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrip link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Age generatore</title>
+</head>
+<body id="bg-mode">
+   <div class="age-container1">
+       <h1>Age days Generatore</h1>
+       <div class="flex-container1">
+        <div>
+            <button class="btn-primary" onclick="yearGenerator()">Click Me</button>
+        </div>
+        <div>
+            <button class="btn-danger" onclick="deleteButton()">Reset</button>
+        </div>
+       </div>
+       <div class="flex-container1">
+        <div class="result-container1"></div>
+       </div>
+   </div>
+   <div class="flex-container2">
+       <h1>Image Pop Project</h1>
+       <button class="btn btn-success" onclick="popUp()">Click Me</button>
+       <div class="imag-pop">
+       </div>
+   </div>
+   <div class="background-container">
+       <h1>Bacground Generatore</h1>
+       <div class="flex-box-button">
+           <button class="btn1 btn-primary">Change</button>
+           <button class="btn2 btn-danger">Color</button>
+           <button class="dark-mode-btn btn-dark" onclick="darkMode()">Dark</button>
+       </div>
+       <div class="change-background">
+           <span class="color">
+               Click the Button Blue To Change The Color
+           </span>
+       </div>
+   </div>
+    <script src="./javascript/index.js"></script>
+</body>
+</html>

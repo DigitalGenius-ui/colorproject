@@ -1,0 +1,80 @@
+.age-container1{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.flex-container1 div{
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.flex-container1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px;
+}
+
+button{
+    border: none;
+    padding: 6px 25px;
+}
+
+.flex-container2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn-success{
+    margin-top: 20px;
+}
+
+.imag-pop{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imag-pop img{
+    margin: 5px;
+    width: 300px;
+}
+
+.background-container{
+    text-align: center;
+    padding: 3rem;
+    border: 1px solid black;
+}
+
+.flex-box-button{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    margin: 7rem auto;
+    align-items: center;
+}
+
+.change-background{
+    margin: 0 auto;
+    padding: 5px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.color{
+    font-size: 2rem;
+}
+
+.background-mode{
+    background-color: black;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
